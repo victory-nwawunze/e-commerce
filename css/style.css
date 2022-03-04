@@ -46,6 +46,9 @@ body{
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 #navbar{
     display: flex;
@@ -81,7 +84,7 @@ body{
     left: 20px;
 }
 #hero{
-    background-image: url('../img/bg.jpeg');
+    background-image: url('../img/bg-removebg-preview.png');
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -91,6 +94,7 @@ body{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    background-color: #E3E6F3;
 }
 #hero h4{
     padding-bottom: 15px;
