@@ -557,5 +557,32 @@ footer .copyright{
     #feature {
         justify-content: space-between;
     }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+    #sm-banner .banner-box2 {
+       margin-top: 20px;
+    }
+    #banner {
+        padding: 0 20px;
+    }
+    #newsletter {
+     padding: 40px 20px;
+    }
+    #banner3 .banner-box {
+        width: 100%;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    footer .copyright {
+        text-align: start;
+    }
 
 }
