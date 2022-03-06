@@ -454,6 +454,9 @@ footer .copyright{
 }
 /* Media Query */
 @media (max-width:799px){
+    .section-p1{
+        padding: 40px 40px;
+    }
     #navbar{
         display: flex;
         align-items: flex-start;
@@ -505,5 +508,14 @@ footer .copyright{
     }
     #feature .fe-box {
         margin: 15px 15px;
+    }
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
     }
 }
